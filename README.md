@@ -10,8 +10,7 @@ Simple and dumb installer of [rbenv][] and [ruby-build][].
 How to use
 ----------
 
-Something like this?
-
 ```
-$ curl https://github.com/matusfi/rbenv-install/rbenv-install.sh.raw | tee .
+curl -L http://tinyurl.com/rbenv-install | bash
+source ~/.profile
 ```

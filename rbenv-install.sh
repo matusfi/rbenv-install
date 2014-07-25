@@ -10,8 +10,5 @@ echo 'eval "$(rbenv init -)"' >> ~/.profile
 # Install ruby-build
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-# Reload the current shell profile
-. ~/.profile
-
 # Make sure the build-essential pkg is installed
 sudo apt-get install -y build-essential
