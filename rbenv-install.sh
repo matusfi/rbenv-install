@@ -10,5 +10,6 @@ echo 'eval "$(rbenv init -)"' >> ~/.profile
 # Install ruby-build
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-# Make sure the build-essential pkg is installed
-sudo apt-get install -y build-essential
+# Make sure the needed pkg is installed
+sudo apt-get install -y build-essential bison libreadline6 libreadline6-dev \
+                        libncurses5-dev
